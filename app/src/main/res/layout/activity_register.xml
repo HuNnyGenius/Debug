@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="unikl.hunnygenius.debug.Register">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:paddingTop="10dp"
+        android:layout_width="368dp"
+        android:layout_height="225dp"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary"
+        android:layout_gravity="center"
+        app:layout_editor_absoluteY="8dp"
+        app:layout_editor_absoluteX="8dp"
+        >
+
+        <TextView
+            android:id="@+id/registerTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="REGISTER"
+            android:textSize="30sp"
+            android:textColor="#000000"
+            android:layout_gravity="center"
+            android:textStyle="italic"
+            />
+
+        <ImageView
+            android:id="@+id/iconIV"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/user" />
+
+        <TextView
+            android:id="@+id/profileTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="profile photo"
+            android:layout_gravity="center"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="300dp"
+        android:layout_marginBottom="34dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <EditText
+            android:id="@+id/emailET"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="@color/colorPrimary"
+            android:drawableLeft="@drawable/ic_mail_outline_black_24dp"
+            android:drawableStart="@drawable/ic_mail_outline_black_24dp"
+            android:hint="Email"
+            android:padding="10dp"
+            android:textColor="#fff"/>
+
+        <EditText
+            android:id="@+id/uRegET"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorPrimary"
+            android:drawableLeft="@drawable/ic_perm_identity_black_24dp"
+            android:drawableStart="@drawable/ic_perm_identity_black_24dp"
+            android:hint="Username"
+            android:padding="10dp"
+            android:textColor="#fff" />
+
+        <EditText
+            android:id="@+id/pwdET"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorPrimary"
+            android:drawableLeft="@drawable/ic_https_black_24dp"
+            android:drawableStart="@drawable/ic_https_black_24dp"
+            android:hint="Password"
+            android:padding="10dp"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/regBtn2"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="#191970"
+            android:text="REGISTER"
+            android:onClick="RegBtn2"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/backTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Back To Login Page"
+            android:onClick="BackLogin"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

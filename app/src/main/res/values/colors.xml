@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#05c3f9</color>
+    <color name="colorPrimaryDark">#0691b8</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="lightchocolate">#795548</color>
+    <color name="darkchocolate">#5D4037</color>
+    <color name="darkgray">#6c6c6c</color>
+    <color name="lightsalmon">#ffa07a</color>
+    <color name="deepskyblue">#00bfff</color>
+    <color name="darkturqoise">#00ced1</color>
+    <color name="white">#ffffff</color>
+    <color name="Bisque4">#8b7d6b</color>
+    <color name="black">#000000</color>
+</resources>
